@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatisDay03_1/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatisDay04_01/pom.xml" />
+        <option value="$PROJECT_DIR$/../MyBatisDay04_02ZhuJieKaiFa/pom.xml" />
+        <option value="$PROJECT_DIR$/../MySpringDay01_01/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringDay01_02springDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringDay01_03/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringDay02_01CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringDay02_02QuanZhuJie/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../SpringDay01_02springDemo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

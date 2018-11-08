@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--namespace:命名空间,作用是对sql语句进行隔离-->
+<!-- 当有多个xxxMapper.xml映射文件的时候,通过namespace命名空间进行配置的sql语句的隔离-->
+<!-- 例如用户,UserMapper.xml命名空间是test;       商品,ItemMapper.xml命名空间是itemTest -->
+<!-- 用法: 用户,test.queryById                   商品, itemTest.queryById     -->
+<!-- 命名空间test.queryById在Java代码中,操作数据库的时候使用,用来确认queryById方法要操作的是哪个sql语句,可以说是定位sql语句的双保险-->
+
+<mapper namespace="test02">
+
+<!-- 根据id 查询用户,原始的dao开发方式 -->
+    <select id="selectUserById" parameterType="int" resultType="com.itheima.pojo.User">
+        SELECT * FROM USER WHERE id=#{id}
+    </select>
+</mapper>
